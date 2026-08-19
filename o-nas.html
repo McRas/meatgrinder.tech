@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>O nas — AVERTO</title>
+<meta name="description" content="Zespół techników i integratorów AV. Realizacje sceniczne, instalacje stałe, systemy niskoprądowe.">
+<meta name="theme-color" content="#050505">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="nav nav--opaque" id="nav">
+  <a class="nav__brand" href="index.html" aria-label="AVERTO — strona główna">
+    <img class="nav__mark" src="assets/img/logo-mark.svg" alt="">
+    <span class="nav__word">AVERTO</span>
+  </a>
+  <nav class="nav__links" id="navLinks" aria-label="Menu główne">
+    <a href="o-nas.html"   data-i18n="nav.about" aria-current="page">O nas</a>
+    <a href="oferta.html"  data-i18n="nav.offer">Oferta</a>
+    <a href="kontakt.html" data-i18n="nav.contact">Kontakt</a>
+  </nav>
+  <div class="lang lang--text" role="group" data-i18n-attr="aria-label:lang.aria" aria-label="Wybór języka">
+    <button class="lang__btn" data-lang="pl" lang="pl"><img class="lang__flag" src="assets/img/flag-pl.svg" alt="">PL</button>
+    <span class="lang__sep" aria-hidden="true">/</span>
+    <button class="lang__btn" data-lang="en" lang="en"><img class="lang__flag" src="assets/img/flag-en.svg" alt="">EN</button>
+  </div>
+  <button class="nav__toggle" aria-expanded="false" aria-controls="navLinks" data-i18n="nav.menu">Menu</button>
+</header>
+
+<main class="page">
+  <div class="wrap">
+    <p class="label" data-i18n="about.label">01 / O nas</p>
+    <h1 class="page__title" data-i18n="p.about.title">O nas</h1>
+    <p class="page__lead" data-i18n="p.about.lead">Jesteśmy zespołem techników i integratorów. Robimy to, co widać na scenie, i to, co schowane w szafie rack.</p>
+
+    <div class="page__rule"></div>
+
+    <div class="cols">
+      <div>
+        <h3 data-i18n="p.about.h1">Jak pracujemy</h3>
+        <p data-i18n="p.about.b1">Zaczynamy od pytań, nie od oferty.</p>
+      </div>
+      <div>
+        <h3 data-i18n="p.about.h2">Czym się zajmujemy</h3>
+        <p data-i18n="p.about.b2">Technika estradowa, instalacje stałe AV, systemy niskoprądowe i sieci.</p>
+      </div>
+      <div>
+        <h3 data-i18n="p.about.h3">Z kim pracujemy</h3>
+        <p data-i18n="p.about.b3">Agencje eventowe, instytucje kultury, integratorzy i klienci końcowi.</p>
+      </div>
+    </div>
+
+    <div class="page__rule"></div>
+
+    <p class="label" data-i18n="p.about.spec">Dane firmy</p>
+    <dl class="spec">
+      <div><dt data-i18n="p.about.k1">Siedziba</dt><dd>Warszawa, PL</dd></div>
+      <div><dt data-i18n="p.about.k2">Rok założenia</dt><dd>2019</dd></div>
+      <div><dt data-i18n="p.about.k3">Zespół</dt><dd data-i18n="p.about.v3">8 osób + stała podwykonawcza ekipa techniczna</dd></div>
+      <div><dt data-i18n="p.about.k4">Zasięg</dt><dd data-i18n="p.about.v4">Polska, wybrane realizacje w UE</dd></div>
+    </dl>
+
+    <a class="more" href="kontakt.html"><span data-i18n="nav.contact">Kontakt</span> →</a>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <span>© <span data-year>2026</span> AVERTO</span>
+    <span data-i18n="foot.made">Warszawa, PL</span>
+    <span data-i18n="foot.rights">Wszelkie prawa zastrzeżone</span>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontakt — AVERTO</title>
+<meta name="description" content="Skontaktuj się z nami: wyceny, realizacje, instalacje AV.">
+<meta name="theme-color" content="#050505">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="nav nav--opaque" id="nav">
+  <a class="nav__brand" href="index.html" aria-label="AVERTO — strona główna">
+    <img class="nav__mark" src="assets/img/logo-mark.svg" alt="">
+    <span class="nav__word">AVERTO</span>
+  </a>
+  <nav class="nav__links" id="navLinks" aria-label="Menu główne">
+    <a href="o-nas.html"   data-i18n="nav.about">O nas</a>
+    <a href="oferta.html"  data-i18n="nav.offer">Oferta</a>
+    <a href="kontakt.html" data-i18n="nav.contact" aria-current="page">Kontakt</a>
+  </nav>
+  <div class="lang lang--text" role="group" data-i18n-attr="aria-label:lang.aria" aria-label="Wybór języka">
+    <button class="lang__btn" data-lang="pl" lang="pl"><img class="lang__flag" src="assets/img/flag-pl.svg" alt="">PL</button>
+    <span class="lang__sep" aria-hidden="true">/</span>
+    <button class="lang__btn" data-lang="en" lang="en"><img class="lang__flag" src="assets/img/flag-en.svg" alt="">EN</button>
+  </div>
+  <button class="nav__toggle" aria-expanded="false" aria-controls="navLinks" data-i18n="nav.menu">Menu</button>
+</header>
+
+<main class="page">
+  <div class="wrap">
+    <p class="label" data-i18n="contact.label">03 / Kontakt</p>
+    <h1 class="page__title" data-i18n="p.contact.title">Kontakt</h1>
+    <p class="page__lead" data-i18n="p.contact.lead">Najszybciej mailem. Przy realizacjach w toku — telefonicznie.</p>
+
+    <div class="contact">
+      <div>
+        <p class="contact__k" data-i18n="contact.k.mail">E-mail</p>
+        <a class="contact__v" href="mailto:kontakt@averto.pl">kontakt@averto.pl</a>
+      </div>
+      <div>
+        <p class="contact__k" data-i18n="contact.k.phone">Telefon</p>
+        <a class="contact__v" href="tel:+48000000000">+48 000 000 000</a>
+      </div>
+      <div>
+        <p class="contact__k" data-i18n="contact.k.addr">Adres</p>
+        <p class="contact__v">ul. Przykładowa 1<br>00-001 Warszawa</p>
+      </div>
+      <div>
+        <p class="contact__k" data-i18n="contact.k.hours">Godziny</p>
+        <p class="contact__v">Pon.–Pt. 09:00–17:00<br>24/7</p>
+      </div>
+    </div>
+
+    <div class="page__rule"></div>
+
+    <p class="label" data-i18n="p.contact.form">Formularz</p>
+    <!-- action="" -> podepnij Formspree / Netlify Forms / własny endpoint (README) -->
+    <form class="form" action="#" method="post">
+      <div class="form__row">
+        <label for="f-name" data-i18n="p.contact.f.name">Imię i nazwisko</label>
+        <input id="f-name" name="name" type="text" required autocomplete="name">
+      </div>
+      <div class="form__row">
+        <label for="f-mail" data-i18n="p.contact.f.mail">E-mail</label>
+        <input id="f-mail" name="email" type="email" required autocomplete="email">
+      </div>
+      <div class="form__row">
+        <label for="f-msg" data-i18n="p.contact.f.msg">Wiadomość</label>
+        <textarea id="f-msg" name="message" required
+                  data-i18n-attr="placeholder:p.contact.f.msgph"
+                  placeholder="Termin, miejsce, zakres."></textarea>
+      </div>
+      <button class="btn" type="submit" data-i18n="p.contact.f.send">Wyślij wiadomość</button>
+      <p class="contact__k" style="margin-top:20px" data-i18n="p.contact.f.note">Formularz wymaga podpięcia usługi wysyłki — patrz README.</p>
+    </form>
+
+    <div class="page__rule"></div>
+
+    <p class="label" data-i18n="p.contact.reg">Dane rejestrowe</p>
+    <dl class="spec">
+      <div><dt data-i18n="p.contact.k.nip">NIP</dt><dd>000-000-00-00</dd></div>
+      <div><dt data-i18n="p.contact.k.regon">REGON</dt><dd>000000000</dd></div>
+      <div><dt data-i18n="p.contact.k.bank">Rachunek</dt><dd>PL00 0000 0000 0000 0000 0000 0000</dd></div>
+    </dl>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <span>© <span data-year>2026</span> AVERTO</span>
+    <span data-i18n="foot.made">Warszawa, PL</span>
+    <span data-i18n="foot.rights">Wszelkie prawa zastrzeżone</span>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oferta — AVERTO</title>
+<meta name="description" content="Realizacje sceniczne, ekrany LED, instalacje AV, sieci i niskie prądy, produkcja wideo, dystrybucja sprzętu.">
+<meta name="theme-color" content="#050505">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="nav nav--opaque" id="nav">
+  <a class="nav__brand" href="index.html" aria-label="AVERTO — strona główna">
+    <img class="nav__mark" src="assets/img/logo-mark.svg" alt="">
+    <span class="nav__word">AVERTO</span>
+  </a>
+  <nav class="nav__links" id="navLinks" aria-label="Menu główne">
+    <a href="o-nas.html"   data-i18n="nav.about">O nas</a>
+    <a href="oferta.html"  data-i18n="nav.offer" aria-current="page">Oferta</a>
+    <a href="kontakt.html" data-i18n="nav.contact">Kontakt</a>
+  </nav>
+  <div class="lang lang--text" role="group" data-i18n-attr="aria-label:lang.aria" aria-label="Wybór języka">
+    <button class="lang__btn" data-lang="pl" lang="pl"><img class="lang__flag" src="assets/img/flag-pl.svg" alt="">PL</button>
+    <span class="lang__sep" aria-hidden="true">/</span>
+    <button class="lang__btn" data-lang="en" lang="en"><img class="lang__flag" src="assets/img/flag-en.svg" alt="">EN</button>
+  </div>
+  <button class="nav__toggle" aria-expanded="false" aria-controls="navLinks" data-i18n="nav.menu">Menu</button>
+</header>
+
+<main class="page">
+  <div class="wrap">
+    <p class="label" data-i18n="offer.label">02 / Oferta</p>
+    <h1 class="page__title" data-i18n="p.offer.title">Oferta</h1>
+    <p class="page__lead" data-i18n="p.offer.lead">Poniżej zakres, w którym pracujemy na co dzień.</p>
+
+    <ul class="services">
+      <li>
+        <span class="services__idx">01</span>
+        <span class="services__name" data-i18n="svc.1.name">Realizacje sceniczne</span>
+        <span class="services__desc" data-i18n="svc.1.desc">Nagłośnienie, oświetlenie i wideo.</span>
+      </li>
+      <li>
+        <span class="services__idx">02</span>
+        <span class="services__name" data-i18n="svc.2.name">Ekrany LED</span>
+        <span class="services__desc" data-i18n="svc.2.desc">Dobór rastra, konstrukcja, procesing.</span>
+      </li>
+      <li>
+        <span class="services__idx">03</span>
+        <span class="services__name" data-i18n="svc.3.name">Instalacje AV</span>
+        <span class="services__desc" data-i18n="svc.3.desc">Sale konferencyjne i audytoria.</span>
+      </li>
+      <li>
+        <span class="services__idx">04</span>
+        <span class="services__name" data-i18n="svc.4.name">Sieci i niskie prądy</span>
+        <span class="services__desc" data-i18n="svc.4.desc">LAN/VLAN, CCTV, kontrola dostępu.</span>
+      </li>
+      <li>
+        <span class="services__idx">05</span>
+        <span class="services__name" data-i18n="svc.5.name">Produkcja wideo</span>
+        <span class="services__desc" data-i18n="svc.5.desc">Filmy techniczne i dokumentacja.</span>
+      </li>
+      <li>
+        <span class="services__idx">06</span>
+        <span class="services__name" data-i18n="svc.6.name">Dystrybucja sprzętu</span>
+        <span class="services__desc" data-i18n="svc.6.desc">Dobór, dostawa, wsparcie techniczne.</span>
+      </li>
+    </ul>
+
+    <div class="page__rule"></div>
+
+    <h2 class="section__title" data-i18n="p.offer.cta.t">Potrzebujesz wyceny?</h2>
+    <p class="section__lead" data-i18n="p.offer.cta.b">Wyślij rider, rzut sali albo opis w trzech zdaniach.</p>
+    <a class="more" href="kontakt.html"><span data-i18n="p.offer.cta.a">Przejdź do kontaktu</span> →</a>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <span>© <span data-year>2026</span> AVERTO</span>
+    <span data-i18n="foot.made">Warszawa, PL</span>
+    <span data-i18n="foot.rights">Wszelkie prawa zastrzeżone</span>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
