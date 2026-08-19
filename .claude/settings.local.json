@@ -2,7 +2,22 @@
   "permissions": {
     "allow": [
       "Bash(mkdir -p assets/css assets/js assets/img assets/video)",
-      "Bash(git mv *)"
+      "Bash(git mv *)",
+      "Bash(python3 -m http.server 8099)",
+      "Bash(curl -sI http://localhost:8099/index.html)",
+      "Bash(curl -sI http://localhost:8099/assets/css/style.css)",
+      "Bash(curl -s http://localhost:8099/assets/css/style.css)",
+      "Bash(curl -sI http://localhost:8099/assets/js/i18n.js)",
+      "Bash(curl -sI http://localhost:8099/assets/js/main.js)",
+      "Bash(kill %1)",
+      "Bash(gh api *)",
+      "Bash(curl -sI https://mcras.github.io/meatgrinder.tech/)",
+      "Bash(curl -sI https://mcras.github.io/meatgrinder.tech/assets/css/style.css)",
+      "Bash(curl -sIL https://meatgrinder.tech)",
+      "Bash(curl -sI https://meatgrinder.tech/assets/css/style.css)",
+      "Bash(curl -s https://meatgrinder.tech)",
+      "Bash(curl -s https://mcras.github.io/meatgrinder.tech/index.html)",
+      "Bash(curl -s https://mcras.github.io/meatgrinder.tech/assets/css/style.css)"
     ]
   }
 }
