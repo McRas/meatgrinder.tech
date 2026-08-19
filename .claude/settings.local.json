@@ -17,7 +17,8 @@
       "Bash(curl -sI https://meatgrinder.tech/assets/css/style.css)",
       "Bash(curl -s https://meatgrinder.tech)",
       "Bash(curl -s https://mcras.github.io/meatgrinder.tech/index.html)",
-      "Bash(curl -s https://mcras.github.io/meatgrinder.tech/assets/css/style.css)"
+      "Bash(curl -s https://mcras.github.io/meatgrinder.tech/assets/css/style.css)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" https://mcras.github.io/meatgrinder.tech/assets/img/favicon.svg)"
     ]
   }
 }

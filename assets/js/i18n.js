@@ -16,9 +16,9 @@ const DICT = {
     "foot.made":    "Warszawa, PL",
 
     /* --- hero --- */
-    "hero.eyebrow": "Technika sceniczna · Instalacje AV · Systemy niskoprądowe",
-    "hero.title":   "Projektujemy i uruchamiamy <em>systemy</em>, które muszą zadziałać za pierwszym razem.",
-    "hero.sub":     "Realizacje eventowe, instalacje stałe i integracja systemów. Od koncepcji i doboru sprzętu po obsługę na miejscu.",
+    "hero.eyebrow": "Technika sceniczna · Systemy multimedialne · Rigging",
+    "hero.title":   "Zbudujemy Twój <em>event</em>.",
+    "hero.sub":     "Oświetlenie eventowe, systemy multimedialne i rigging. Od wsparcia koncepcyjnego, po montaż, obsługę i realizację.",
     "hero.scroll":  "Przewiń",
 
     /* --- sekcja: o nas --- */
