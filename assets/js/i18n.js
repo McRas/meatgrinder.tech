@@ -23,7 +23,7 @@ const DICT = {
 
     /* --- sekcja: o nas --- */
     "about.label":  "01 / O nas",
-    "about.title":  "Zapewiamy profesjonalistów.",
+    "about.title":  "Zapewniamy profesjonalistów.",
     "about.p1":     "Dostarczamy techników, stagehandów i realizatorów dla firm zajmujących się techniką eventową. Dysponujemy zespołem doświadczonych, certyfikowanych specjalistów w tej dziedzinie. Działamy przede wszystkim w obszarze oświetlenia, multimediów i konstrukcji scenicznych oraz riggingu. Przez ostatnie 10 lat w branży pracowaliśmy przy wszelkiego rodzaju sztukach, od wydarzeń stadionowych i festiwali, przez konferencje po wesela. ",
     "about.p2":     "Nie jest obca nam praca z dokumentacją i rysunkami, natomiast potrafimy też reagować na zmiany i rozwiązywać problemy w czasie rzeczywistym. Do produkcji podchodzimy kompleksowo, od wsparcia przy projekcie, przez policzenie obciążeń obwodów elektrycznych oraz linii sygnałowych, po montaż, obsługę czy nawet realizację wydarzenia z za konsolety.",
     "about.more":   "Więcej o firmie",
@@ -31,7 +31,7 @@ const DICT = {
     /* --- sekcja: oferta --- */
     "offer.label":  "02 / Oferta",
     "offer.title":  "Zakres usług",
-    "offer.lead":   "Sześć obszarów, w których pracujemy kompleksowo — od projektu po serwis.",
+    "offer.lead":   "Cztery obszary, w których pracujemy kompleksowo — od projektu po serwis.",
     "offer.more":   "Pełna oferta",
 
     "svc.1.name":   "Oświetlenie eventowe",
@@ -115,28 +115,29 @@ const DICT = {
     "hero.scroll":  "Scroll",
 
     "about.label":  "01 / About",
-    "about.title":  "Engineering, not improvisation.",
-    "about.p1":     "We work where live production meets fixed installation: audio, lighting, video and LED — plus the layer nobody thinks about until it fails: networking, power and control.",
-    "about.p2":     "Every job starts with documentation: signal flow, equipment list, load plan and crew schedule. So it is always clear what is on stage and why — including when something has to change an hour before doors.",
+    "about.title":  "We supply professionals.",
+    "about.p1":     "We supply technicians, stagehands and operators to companies working in event production. We have a team of experienced, certified specialists in the field. We work primarily in lighting, multimedia, stage structures and rigging. Over the last 10 years in the industry we have worked on every kind of show, from stadium events and festivals to conferences and weddings.",
+    "about.p2":     "Working with documentation and drawings is nothing new to us, but we can also react to changes and solve problems in real time. We approach production end to end: from project support and calculating electrical circuit and signal line loads, through installation and operation, to running the show from behind the console.",
     "about.more":   "More about us",
 
     "offer.label":  "02 / Services",
     "offer.title":  "What we do",
-    "offer.lead":   "Six areas we cover end to end — from design to service.",
+    "offer.lead":   "Four areas we cover end to end — from design to service.",
     "offer.more":   "Full service list",
 
-    "svc.1.name":   "Live production",
+    "svc.1.name":   "Event lighting",
     "svc.1.desc":   "Audio, lighting and video for concerts, conferences and corporate events. Equipment, technical crew and on-site operation.",
-    "svc.2.name":   "LED screens",
+    "svc.2.name":   "Multimedia",
     "svc.2.desc":   "Pixel pitch selection, structure, processing and calibration. Scenic screens, backdrops and indoor walls.",
-    "svc.3.name":   "AV installations",
+    "svc.3.name":   "Stage structures / rigging",
     "svc.3.desc":   "Meeting rooms, auditoriums and commercial spaces. Design, installation, control programming and user training.",
-    "svc.4.name":   "Networks & low voltage",
+    "svc.4.name":   "Lighting operation",
     "svc.4.desc":   "LAN/VLAN for AV transport, CCTV, access control and structured cabling. Certification and as-built documentation.",
-    "svc.5.name":   "Video production",
+    /*"svc.5.name":   "Video production",
     "svc.5.desc":   "Technical films, project documentation and product footage. Shooting, editing and colour grading.",
     "svc.6.name":   "Equipment supply",
     "svc.6.desc":   "Hardware matched to the actual use case, delivery, initial configuration and post-sale technical support.",
+*/
 
     "contact.label":   "03 / Contact",
     "contact.title":   "Tell us what needs to happen.",

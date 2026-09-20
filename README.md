@@ -1,4 +1,4 @@
-# AVERTO — strona wizytówka
+# MEATGRINDER — strona wizytówka
 
 Statyczna strona: 4 pliki HTML, jeden CSS, dwa JS. Bez frameworka, bez builda,
 bez zależności poza fontami z Google Fonts.
