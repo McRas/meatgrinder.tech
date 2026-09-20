@@ -23,9 +23,9 @@ const DICT = {
 
     /* --- sekcja: o nas --- */
     "about.label":  "01 / O nas",
-    "about.title":  "Inżynieria, nie improwizacja.",
-    "about.p1":     "Pracujemy na styku sceny i instalacji: nagłośnienie, oświetlenie, wideo i LED, a do tego warstwa, o której nikt nie pamięta do momentu awarii — sieć, zasilanie i sterowanie.",
-    "about.p2":     "Każdą realizację zaczynamy od dokumentacji: schemat sygnałowy, lista sprzętu, plan obciążeń i rozpiska ekipy. Dzięki temu wiadomo, co i dlaczego stoi na scenie — także wtedy, gdy trzeba coś zmienić na godzinę przed startem.",
+    "about.title":  "Zapewiamy profesjonalistów.",
+    "about.p1":     "Dostarczamy techników, stagehandów i realizatorów dla firm zajmujących się techniką eventową. Dysponujemy zespołem doświadczonych, certyfikowanych specjalistów w tej dziedzinie. Działamy przede wszystkim w obszarze oświetlenia, multimediów i konstrukcji scenicznych oraz riggingu. Przez ostatnie 10 lat w branży pracowaliśmy przy wszelkiego rodzaju sztukach, od wydarzeń stadionowych i festiwali, przez konferencje po wesela. ",
+    "about.p2":     "Nie jest obca nam praca z dokumentacją i rysunkami, natomiast potrafimy też reagować na zmiany i rozwiązywać problemy w czasie rzeczywistym. Do produkcji podchodzimy kompleksowo, od wsparcia przy projekcie, przez policzenie obciążeń obwodów elektrycznych oraz linii sygnałowych, po montaż, obsługę czy nawet realizację wydarzenia z za konsolety.",
     "about.more":   "Więcej o firmie",
 
     /* --- sekcja: oferta --- */
@@ -34,19 +34,19 @@ const DICT = {
     "offer.lead":   "Sześć obszarów, w których pracujemy kompleksowo — od projektu po serwis.",
     "offer.more":   "Pełna oferta",
 
-    "svc.1.name":   "Realizacje sceniczne",
+    "svc.1.name":   "Oświetlenie eventowe",
     "svc.1.desc":   "Nagłośnienie, oświetlenie i wideo dla koncertów, konferencji i eventów firmowych. Sprzęt, ekipa techniczna i obsługa na miejscu.",
-    "svc.2.name":   "Ekrany LED",
+    "svc.2.name":   "Multimedia",
     "svc.2.desc":   "Dobór rastra, konstrukcja, procesing i kalibracja. Ekrany scenograficzne, tła i ścianki wewnętrzne.",
-    "svc.3.name":   "Instalacje AV",
+    "svc.3.name":   "Konstrukcje sceniczne / rigging",
     "svc.3.desc":   "Sale konferencyjne, audytoria i przestrzenie komercyjne. Projekt, montaż, programowanie sterowania i szkolenie użytkownika.",
-    "svc.4.name":   "Sieci i niskie prądy",
+    "svc.4.name":   "Realizacja oświetlenia",
     "svc.4.desc":   "Sieci LAN/VLAN pod transmisję AV, CCTV, kontrola dostępu i okablowanie strukturalne. Pomiary i dokumentacja powykonawcza.",
-    "svc.5.name":   "Produkcja wideo",
+    /*"svc.5.name":   "Produkcja wideo",
     "svc.5.desc":   "Filmy techniczne, dokumentacja realizacji i materiały produktowe. Zdjęcia, montaż, korekcja barwna.",
     "svc.6.name":   "Dystrybucja sprzętu",
     "svc.6.desc":   "Dobór urządzeń pod konkretne zastosowanie, dostawa, konfiguracja startowa i wsparcie techniczne po sprzedaży.",
-
+*/
     /* --- sekcja: kontakt --- */
     "contact.label":   "03 / Kontakt",
     "contact.title":   "Napisz, co masz do zrobienia.",
