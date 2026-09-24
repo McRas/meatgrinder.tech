@@ -40,7 +40,7 @@ strona/
 
 | Element | Gdzie |
 |---|---|
-| Nazwa firmy | `nav__word` w każdym HTML + tytuły stron + stopka |
+| Nazwa firmy | `aria-label` logo w navbarze w każdym HTML + tytuły stron + stopka |
 | Logo | `assets/img/logo-mark.svg` (znak) i `logo.svg` (znak + nazwa) |
 | Film | `assets/video/hero.mp4` — instrukcja w `assets/video/README.txt` |
 | Teksty | **wyłącznie** `assets/js/i18n.js` — tekst w HTML to tylko fallback |

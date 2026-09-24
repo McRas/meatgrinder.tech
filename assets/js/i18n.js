@@ -16,7 +16,7 @@ const DICT = {
     "foot.made":    "Warszawa, PL",
 
     /* --- hero --- */
-    "hero.eyebrow": "Technika sceniczna · Systemy multimedialne · Rigging",
+    "hero.eyebrow": "Technika sceniczna · Oświetlenie · Multimedia",
     "hero.title":   "Zbudujemy Twój <em>event</em>.",
     "hero.sub":     "Oświetlenie eventowe, systemy multimedialne i rigging. Od wsparcia koncepcyjnego, po montaż, obsługę i realizację.",
     "hero.scroll":  "Przewiń",
@@ -66,7 +66,7 @@ const DICT = {
     "p.about.h2":    "Czym się zajmujemy",
     "p.about.b2":    "Oświetlenie eventowe, multimedia, rigging. Wsparcie na etapie projektu oświetlenia i zasilania. Realizacja na konsolach MA2 oraz MA3.",
     "p.about.h3":    "Z kim pracujemy",
-    "p.about.b3":    "Firmy techniki estradowej, studia designu, preprogrammingi oświetlenia i multimediów, teatry, agencje eventowe.",
+    "p.about.b3":    "Firmy techniki estradowej, studia designu i preprogrammingu, teatry, agencje eventowe.",
     "p.about.spec":  "Dane firmy",
     "p.about.k1":    "Siedziba",
     "p.about.k2":    "Rok założenia",
