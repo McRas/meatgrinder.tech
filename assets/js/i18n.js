@@ -111,7 +111,7 @@ const DICT = {
     "foot.made":    "Warsaw, PL",
 
     /* --- hero --- */
-    "hero.eyebrow": "Live production · Multimedia systems · Rigging",
+    "hero.eyebrow": "Live production · Lighting · Multimedia",
     "hero.title":   "We'll build your <em>event</em>.",
     "hero.sub":     "Event lighting, multimedia systems and rigging. From concept support to installation, operation and live execution.",
     "hero.scroll":  "Scroll",
@@ -162,7 +162,7 @@ const DICT = {
     "p.about.h2":    "What we cover",
     "p.about.b2":    "Event lighting, multimedia, rigging. Support at the lighting and power design stage. Live operation on grandMA2 and grandMA3 consoles.",
     "p.about.h3":    "Who we work with",
-    "p.about.b3":    "Live production companies, design studios, lighting and multimedia pre-programmers, theatres, event agencies.",
+    "p.about.b3":    "Live production companies, design and pre-programming studios, theatres, event agencies.",
     "p.about.spec":  "Company data",
     "p.about.k1":    "Head office",
     "p.about.k2":    "Founded",
@@ -207,7 +207,7 @@ const DICT = {
     "foot.made":    "Warschau, PL",
 
     /* --- Hero --- */
-    "hero.eyebrow": "Bühnentechnik · Multimediasysteme · Rigging",
+    "hero.eyebrow": "Bühnentechnik · Licht · Multimedia",
     "hero.title":   "Wir bauen Ihr <em>Event</em>.",
     "hero.sub":     "Eventbeleuchtung, Multimediasysteme und Rigging. Von der Konzeptunterstützung über Aufbau und Betrieb bis zur Durchführung.",
     "hero.scroll":  "Scrollen",
@@ -258,7 +258,7 @@ const DICT = {
     "p.about.h2":    "Womit wir uns befassen",
     "p.about.b2":    "Eventbeleuchtung, Multimedia, Rigging. Unterstützung bei der Planung von Licht und Stromversorgung. Live-Fahren auf grandMA2- und grandMA3-Pulten.",
     "p.about.h3":    "Mit wem wir arbeiten",
-    "p.about.b3":    "Bühnentechnikfirmen, Designstudios, Vorprogrammierer für Licht und Multimedia, Theater, Eventagenturen.",
+    "p.about.b3":    "Bühnentechnikfirmen, Design- und Vorprogrammierstudios, Theater, Eventagenturen.",
     "p.about.spec":  "Firmendaten",
     "p.about.k1":    "Sitz",
     "p.about.k2":    "Gegründet",
